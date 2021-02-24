@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 630px;
+    width: 600px;
+}
+h1 {
+    position: relative;
+    left: 190px;
+    top: 35px;
+    font-size: 55px;
+    color: aqua;
+}
+td,th{
+    padding: 3px 3px;
+}
+td{
+    color: black;
+    text-align: center;
+    background: darkorange;
+}
+th{
+    color: greenyellow;
+    text-align: center;
+    background-color: blueviolet;
+}
+table {
+    position: relative;
+    bottom: 8px;
+    left: 60px;
+    font-size: 30px;
+    border: 6px solid darkslategray;
+}
+.btn {
+    position: relative;
+    bottom: 3px;
+    left: 260px;
+    font-size: 30px;
+    border: 3px solid red;
+    border-radius: 9px;
+    padding: 5px;
+    cursor: pointer;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-family: cursive;
+}
+.btn:hover, .btn a:hover{
+    background-color: black;
+    color: whitesmoke;
+}
+.edit {
+    border: 3px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.edit a{
+    text-decoration: none;
+}
+.edit a img {
+    height: 45px;
+    width: 45px;
+}
+.icon{
+    position: relative;
+    bottom: 28px;
+    left: 555px;
+    display: inline-block;
+    width: 55px;
+    height: 58px;
+}
+.icon span{
+    position: relative;
+    top: 10px;
+    right: 35px;
+    width: 120px;
+    background: black;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    transition: 0.6s opacity;
+}
+.icon span::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: -5px;
+    background: black;
+    z-index: -1;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
+.icon:hover > span{
+    opacity: 1;
+}
+.icon2{
+    position: relative;
+    top: 200px;
+    left: 595px;
+    display: inline-block;
+    width: 42px;
+    height: 46px;
+    z-index: 1;
+}
+.icon2 span{
+    position: relative;
+    bottom: 36px;
+    left: 51px;
+    width: 120px;
+    background: black;
+    color: white;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 8px;
+    display: block;
+    margin: 0 auto;
+    opacity: 0;
+    transition: 0.6s opacity;
+}
+.icon2 span::before{
+    content: '';
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 8px;
+    left: 1px;
+    background: black;
+    z-index: -1;
+    transform: translateX(-50%) rotate(45deg);
+}
+.icon2:hover > span{
+    opacity: 1;
+}
+fieldset{
+    padding: 5px 5px;
+    display: inline-block;
+    position: relative;
+    left: 150%;
+    bottom: 60%;
+    border: 6px solid black;
+    background: white4;
+}

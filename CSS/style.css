@@ -1,0 +1,53 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    height: 400px;
+}
+fieldset {
+    padding: 7px 25px;
+    display: inline-block;
+    position: relative;
+    border: 7px solid black;
+    left: 38%;
+    top: 50%;
+}
+legend img{
+    height: 65px;
+}
+div{
+    margin: 5px 5px;
+    font-size: 30px;
+    font-family: cursive;
+}
+.btn{
+    float: left;
+}
+.btn input{
+    border-radius: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    width: 112px;
+    position: relative;
+    left: 38px;
+}
+.btn button{
+    border-radius: 15px;
+    font-size: 22px;
+    cursor: pointer;
+    width: 112px;
+    position: relative;
+    left: 64px;
+}
+.btn button a{
+    text-decoration: none;
+    color: black;
+}
+.box{
+    font-size: 18px;
+    height: 33px;
+    border-radius: 10px;
+    text-align: center;
+}
