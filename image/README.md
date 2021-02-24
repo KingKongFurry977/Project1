@@ -1,4 +1,6 @@
 download this and paste inside image folder
+and donot change the name of image....
+if you change then please change the name in the program to execute the image
 
 ![delete](https://user-images.githubusercontent.com/77602789/109025208-87ecdb80-76e4-11eb-99e7-0bd17f379595.png)
 ![Edit](https://user-images.githubusercontent.com/77602789/109025215-891e0880-76e4-11eb-9a8f-1143aade6360.png)
