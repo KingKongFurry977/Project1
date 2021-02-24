@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* h1#log{
+    animation: text 5s ease-in-out 1s 12 backwards;    
+}
+@keyframes text{
+    from{
+        font-size: 28px;
+    }
+    to{
+        font-size: 38px;
+    }
+} */
+h1#log{
+    animation: image 5s ease-in-out 1s 12 backwards;    
+}
+@keyframes image{
+    0%{}
+    25%{}
+    75%{}
+    100%{}
+}
